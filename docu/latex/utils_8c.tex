@@ -1,0 +1,52 @@
+\hypertarget{utils_8c}{}\section{utils.\+c File Reference}
+\label{utils_8c}\index{utils.\+c@{utils.\+c}}
+{\ttfamily \#include \char`\"{}utils.\+h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{utils_8c_a2eebba9e6663d8b7274ec5c47b0f4ab4}{operation} (bool $\ast$\hyperlink{main_8c_a3ee5cf9b882c0e18fa092f8ff663c404}{degrees\+\_\+data\+\_\+to\+\_\+read}, bool $\ast$\hyperlink{main_8c_a7f5d5739f7e2f43debba7b3877d1273a}{radian\+\_\+data\+\_\+to\+\_\+read}, bool $\ast$\hyperlink{main_8c_ad65bad7b170b0c84a1c801fa7f5d0ed5}{single\+\_\+measure\+\_\+no\+\_\+send}, bool $\ast$\hyperlink{main_8c_a24b47a699b31b841fb5c77760c7d2931}{single\+\_\+measure\+\_\+with\+\_\+send})
+\item 
+void \hyperlink{utils_8c_a834229d0309d03a0ef03c35ddb413922}{config\+\_\+pheripherials} (uint8\+\_\+t $\ast$\hyperlink{main_8c_ad3de2f8536dd081cded475d0cc54be31}{recieved\+\_\+data})
+\begin{DoxyCompactList}\small\item\em inicjalizacja układów peryferyjnych mikrokontrolera \end{DoxyCompactList}\item 
+void \hyperlink{utils_8c_a1c0907709d84c357a4e839b57a9a68c7}{display\+\_\+static\+\_\+menu} ()
+\begin{DoxyCompactList}\small\item\em stały tekst wyswietlany na L\+C\+D (nieodswierzaniy) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{utils_8c_a834229d0309d03a0ef03c35ddb413922}{}\index{utils.\+c@{utils.\+c}!config\+\_\+pheripherials@{config\+\_\+pheripherials}}
+\index{config\+\_\+pheripherials@{config\+\_\+pheripherials}!utils.\+c@{utils.\+c}}
+\subsubsection[{config\+\_\+pheripherials}]{\setlength{\rightskip}{0pt plus 5cm}void config\+\_\+pheripherials (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t $\ast$}]{recieved\+\_\+data}
+\end{DoxyParamCaption}
+)}\label{utils_8c_a834229d0309d03a0ef03c35ddb413922}
+
+
+inicjalizacja układów peryferyjnych mikrokontrolera 
+
+uruchomienie D\+M\+A
+
+uruchomienie liczników
+
+uruchomienie G\+P\+I\+O,U\+A\+R\+T,Timer,rejetru A\+F \hypertarget{utils_8c_a1c0907709d84c357a4e839b57a9a68c7}{}\index{utils.\+c@{utils.\+c}!display\+\_\+static\+\_\+menu@{display\+\_\+static\+\_\+menu}}
+\index{display\+\_\+static\+\_\+menu@{display\+\_\+static\+\_\+menu}!utils.\+c@{utils.\+c}}
+\subsubsection[{display\+\_\+static\+\_\+menu}]{\setlength{\rightskip}{0pt plus 5cm}void display\+\_\+static\+\_\+menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{utils_8c_a1c0907709d84c357a4e839b57a9a68c7}
+
+
+stały tekst wyswietlany na L\+C\+D (nieodswierzaniy) 
+
+\hypertarget{utils_8c_a2eebba9e6663d8b7274ec5c47b0f4ab4}{}\index{utils.\+c@{utils.\+c}!operation@{operation}}
+\index{operation@{operation}!utils.\+c@{utils.\+c}}
+\subsubsection[{operation}]{\setlength{\rightskip}{0pt plus 5cm}void operation (
+\begin{DoxyParamCaption}
+\item[{bool $\ast$}]{degrees\+\_\+data\+\_\+to\+\_\+read, }
+\item[{bool $\ast$}]{radian\+\_\+data\+\_\+to\+\_\+read, }
+\item[{bool $\ast$}]{single\+\_\+measure\+\_\+no\+\_\+send, }
+\item[{bool $\ast$}]{single\+\_\+measure\+\_\+with\+\_\+send}
+\end{DoxyParamCaption}
+)}\label{utils_8c_a2eebba9e6663d8b7274ec5c47b0f4ab4}
+pobieranie próbek z akcelerometru i ich urednianie w celu prostej filtracji dolnoprzepustowej

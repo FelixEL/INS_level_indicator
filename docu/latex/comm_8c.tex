@@ -1,0 +1,120 @@
+\hypertarget{comm_8c}{}\section{comm.\+c File Reference}
+\label{comm_8c}\index{comm.\+c@{comm.\+c}}
+{\ttfamily \#include \char`\"{}comm.\+h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{comm_8c_a7da3517781497517b7194e980e706e2e}{I2\+C\+\_\+\+G\+P\+I\+O\+\_\+\+Config} ()
+\item 
+void \hyperlink{comm_8c_a0a00cfe55283e88c0c639b36cb007c4e}{I2\+C\+\_\+\+Config} ()
+\item 
+unsigned char \hyperlink{comm_8c_a2bbe928ecad30f6d74cf3920b691af4c}{Read\+M\+E\+M\+S} (unsigned char Address)
+\begin{DoxyCompactList}\small\item\em odczytywanie z pod adresu \end{DoxyCompactList}\item 
+void \hyperlink{comm_8c_a7179f8125d3c7d05b700b5ab8df97fd2}{Write\+M\+E\+M\+S} (unsigned char Address, unsigned char Value)
+\begin{DoxyCompactList}\small\item\em wpisywanie pod adres \end{DoxyCompactList}\item 
+void \hyperlink{comm_8c_a037968824f68d859baedb8f78c5acea9}{Enable\+\_\+\+M\+E\+M\+S} ()
+\begin{DoxyCompactList}\small\item\em inicjalizacja M\+E\+M\+S \end{DoxyCompactList}\item 
+void \hyperlink{comm_8c_a9cb7ec96d7d4564ba19a755b8e8417ae}{Disable\+\_\+\+M\+E\+M\+S} ()
+\begin{DoxyCompactList}\small\item\em wyłączenie układu \end{DoxyCompactList}\item 
+void \hyperlink{comm_8c_a63de1d3666f569afe59d9ef27915c7c9}{Deinit\+\_\+\+M\+E\+M\+S} ()
+\begin{DoxyCompactList}\small\item\em deinicjalizacja układu \end{DoxyCompactList}\item 
+float \hyperlink{comm_8c_a5d5f67f952e8bdfc5bebb6f0a9d49313}{Get\+\_\+\+M\+E\+M\+S\+\_\+\+Temp} ()
+\begin{DoxyCompactList}\small\item\em pobieranie temperatury z czyjnika w obudownie \end{DoxyCompactList}\item 
+short \hyperlink{comm_8c_a40e04cd7194f224ad17544379c22fcd3}{Get\+\_\+\+Data\+\_\+\+M\+E\+M\+S} (unsigned char Address\+H, unsigned char Address\+L)
+\begin{DoxyCompactList}\small\item\em pobieranie danej 16 bitowej \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{comm_8c_a63de1d3666f569afe59d9ef27915c7c9}{}\index{comm.\+c@{comm.\+c}!Deinit\+\_\+\+M\+E\+M\+S@{Deinit\+\_\+\+M\+E\+M\+S}}
+\index{Deinit\+\_\+\+M\+E\+M\+S@{Deinit\+\_\+\+M\+E\+M\+S}!comm.\+c@{comm.\+c}}
+\subsubsection[{Deinit\+\_\+\+M\+E\+M\+S}]{\setlength{\rightskip}{0pt plus 5cm}void Deinit\+\_\+\+M\+E\+M\+S (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{comm_8c_a63de1d3666f569afe59d9ef27915c7c9}
+
+
+deinicjalizacja układu 
+
+\hypertarget{comm_8c_a9cb7ec96d7d4564ba19a755b8e8417ae}{}\index{comm.\+c@{comm.\+c}!Disable\+\_\+\+M\+E\+M\+S@{Disable\+\_\+\+M\+E\+M\+S}}
+\index{Disable\+\_\+\+M\+E\+M\+S@{Disable\+\_\+\+M\+E\+M\+S}!comm.\+c@{comm.\+c}}
+\subsubsection[{Disable\+\_\+\+M\+E\+M\+S}]{\setlength{\rightskip}{0pt plus 5cm}void Disable\+\_\+\+M\+E\+M\+S (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{comm_8c_a9cb7ec96d7d4564ba19a755b8e8417ae}
+
+
+wyłączenie układu 
+
+\hypertarget{comm_8c_a037968824f68d859baedb8f78c5acea9}{}\index{comm.\+c@{comm.\+c}!Enable\+\_\+\+M\+E\+M\+S@{Enable\+\_\+\+M\+E\+M\+S}}
+\index{Enable\+\_\+\+M\+E\+M\+S@{Enable\+\_\+\+M\+E\+M\+S}!comm.\+c@{comm.\+c}}
+\subsubsection[{Enable\+\_\+\+M\+E\+M\+S}]{\setlength{\rightskip}{0pt plus 5cm}void Enable\+\_\+\+M\+E\+M\+S (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{comm_8c_a037968824f68d859baedb8f78c5acea9}
+
+
+inicjalizacja M\+E\+M\+S 
+
+\hypertarget{comm_8c_a40e04cd7194f224ad17544379c22fcd3}{}\index{comm.\+c@{comm.\+c}!Get\+\_\+\+Data\+\_\+\+M\+E\+M\+S@{Get\+\_\+\+Data\+\_\+\+M\+E\+M\+S}}
+\index{Get\+\_\+\+Data\+\_\+\+M\+E\+M\+S@{Get\+\_\+\+Data\+\_\+\+M\+E\+M\+S}!comm.\+c@{comm.\+c}}
+\subsubsection[{Get\+\_\+\+Data\+\_\+\+M\+E\+M\+S}]{\setlength{\rightskip}{0pt plus 5cm}short Get\+\_\+\+Data\+\_\+\+M\+E\+M\+S (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{Address\+H, }
+\item[{unsigned char}]{Address\+L}
+\end{DoxyParamCaption}
+)}\label{comm_8c_a40e04cd7194f224ad17544379c22fcd3}
+
+
+pobieranie danej 16 bitowej 
+
+\hypertarget{comm_8c_a5d5f67f952e8bdfc5bebb6f0a9d49313}{}\index{comm.\+c@{comm.\+c}!Get\+\_\+\+M\+E\+M\+S\+\_\+\+Temp@{Get\+\_\+\+M\+E\+M\+S\+\_\+\+Temp}}
+\index{Get\+\_\+\+M\+E\+M\+S\+\_\+\+Temp@{Get\+\_\+\+M\+E\+M\+S\+\_\+\+Temp}!comm.\+c@{comm.\+c}}
+\subsubsection[{Get\+\_\+\+M\+E\+M\+S\+\_\+\+Temp}]{\setlength{\rightskip}{0pt plus 5cm}float Get\+\_\+\+M\+E\+M\+S\+\_\+\+Temp (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{comm_8c_a5d5f67f952e8bdfc5bebb6f0a9d49313}
+
+
+pobieranie temperatury z czyjnika w obudownie 
+
+\hypertarget{comm_8c_a0a00cfe55283e88c0c639b36cb007c4e}{}\index{comm.\+c@{comm.\+c}!I2\+C\+\_\+\+Config@{I2\+C\+\_\+\+Config}}
+\index{I2\+C\+\_\+\+Config@{I2\+C\+\_\+\+Config}!comm.\+c@{comm.\+c}}
+\subsubsection[{I2\+C\+\_\+\+Config}]{\setlength{\rightskip}{0pt plus 5cm}void I2\+C\+\_\+\+Config (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{comm_8c_a0a00cfe55283e88c0c639b36cb007c4e}
+\hypertarget{comm_8c_a7da3517781497517b7194e980e706e2e}{}\index{comm.\+c@{comm.\+c}!I2\+C\+\_\+\+G\+P\+I\+O\+\_\+\+Config@{I2\+C\+\_\+\+G\+P\+I\+O\+\_\+\+Config}}
+\index{I2\+C\+\_\+\+G\+P\+I\+O\+\_\+\+Config@{I2\+C\+\_\+\+G\+P\+I\+O\+\_\+\+Config}!comm.\+c@{comm.\+c}}
+\subsubsection[{I2\+C\+\_\+\+G\+P\+I\+O\+\_\+\+Config}]{\setlength{\rightskip}{0pt plus 5cm}void I2\+C\+\_\+\+G\+P\+I\+O\+\_\+\+Config (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{comm_8c_a7da3517781497517b7194e980e706e2e}
+\hypertarget{comm_8c_a2bbe928ecad30f6d74cf3920b691af4c}{}\index{comm.\+c@{comm.\+c}!Read\+M\+E\+M\+S@{Read\+M\+E\+M\+S}}
+\index{Read\+M\+E\+M\+S@{Read\+M\+E\+M\+S}!comm.\+c@{comm.\+c}}
+\subsubsection[{Read\+M\+E\+M\+S}]{\setlength{\rightskip}{0pt plus 5cm}unsigned char Read\+M\+E\+M\+S (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{Address}
+\end{DoxyParamCaption}
+)}\label{comm_8c_a2bbe928ecad30f6d74cf3920b691af4c}
+
+
+odczytywanie z pod adresu 
+
+\hypertarget{comm_8c_a7179f8125d3c7d05b700b5ab8df97fd2}{}\index{comm.\+c@{comm.\+c}!Write\+M\+E\+M\+S@{Write\+M\+E\+M\+S}}
+\index{Write\+M\+E\+M\+S@{Write\+M\+E\+M\+S}!comm.\+c@{comm.\+c}}
+\subsubsection[{Write\+M\+E\+M\+S}]{\setlength{\rightskip}{0pt plus 5cm}void Write\+M\+E\+M\+S (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{Address, }
+\item[{unsigned char}]{Value}
+\end{DoxyParamCaption}
+)}\label{comm_8c_a7179f8125d3c7d05b700b5ab8df97fd2}
+
+
+wpisywanie pod adres 
+

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=transponder.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\transponder -TC:\CooCox\CoIDE\configuration\ProgramData\transponder/arm-gcc-link.ld -g">
+      <target file="transponder.elf" lastModified="15a709f956e">
+         <source file="..\obj\HD44780.o" lastModified="15a704b3705"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15a704b3865"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15a704b393e"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15a704b3a01"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15a704b3af9"/>
+         <source file="..\obj\main.o" lastModified="15a709f9022"/>
+         <source file="..\obj\comm.o" lastModified="15a709f914b"/>
+         <source file="..\obj\utils.o" lastModified="15a709f9334"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15a704b4125"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="15a704b4235"/>
+         <source file="..\obj\syscalls.o" lastModified="15a704b4333"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="15a704b4430"/>
+      </target>
+   </processor>
+</history>

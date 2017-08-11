@@ -1,0 +1,89 @@
+\hypertarget{main_8c}{}\section{main.\+c File Reference}
+\label{main_8c}\index{main.\+c@{main.\+c}}
+{\ttfamily \#include \char`\"{}stm32f10x.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}H\+D44780.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}stdlib.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}stm32f10x\+\_\+gpio.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}stdio.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}stdbool.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}comm.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}utils.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}definitions.\+h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{main} (void)
+\begin{DoxyCompactList}\small\item\em funkcja główna \end{DoxyCompactList}\item 
+\hyperlink{main_8c_a4f2a6af09f383df578e27ae706535323}{D\+M\+A1\+\_\+\+Channel5\+\_\+\+I\+R\+Q\+Handler} ()
+\item 
+\hyperlink{main_8c_ae82b9775ac87a11280cec163f50bcec7}{E\+X\+T\+I15\+\_\+10\+\_\+\+I\+R\+Q\+Handler} ()
+\item 
+\hyperlink{main_8c_a0ae53972a4e789e16447cc4c5f40f5e3}{T\+I\+M3\+\_\+\+I\+R\+Q\+Handler} ()
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t \hyperlink{main_8c_ad3de2f8536dd081cded475d0cc54be31}{recieved\+\_\+data} \mbox{[}\hyperlink{utils_8h_ac0165a40ef80f1ac9e101e402ea9b531}{R\+E\+C\+I\+E\+V\+E\+D\+\_\+\+D\+A\+T\+A\+\_\+\+L\+E\+N\+G\+H\+T}\mbox{]}
+\item 
+bool \hyperlink{main_8c_a3ee5cf9b882c0e18fa092f8ff663c404}{degrees\+\_\+data\+\_\+to\+\_\+read} =false
+\item 
+bool \hyperlink{main_8c_a7f5d5739f7e2f43debba7b3877d1273a}{radian\+\_\+data\+\_\+to\+\_\+read} =false
+\item 
+bool \hyperlink{main_8c_ad65bad7b170b0c84a1c801fa7f5d0ed5}{single\+\_\+measure\+\_\+no\+\_\+send} =false
+\item 
+bool \hyperlink{main_8c_a24b47a699b31b841fb5c77760c7d2931}{single\+\_\+measure\+\_\+with\+\_\+send} =false
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{main_8c_a4f2a6af09f383df578e27ae706535323}{}\index{main.\+c@{main.\+c}!D\+M\+A1\+\_\+\+Channel5\+\_\+\+I\+R\+Q\+Handler@{D\+M\+A1\+\_\+\+Channel5\+\_\+\+I\+R\+Q\+Handler}}
+\index{D\+M\+A1\+\_\+\+Channel5\+\_\+\+I\+R\+Q\+Handler@{D\+M\+A1\+\_\+\+Channel5\+\_\+\+I\+R\+Q\+Handler}!main.\+c@{main.\+c}}
+\subsubsection[{D\+M\+A1\+\_\+\+Channel5\+\_\+\+I\+R\+Q\+Handler}]{\setlength{\rightskip}{0pt plus 5cm}D\+M\+A1\+\_\+\+Channel5\+\_\+\+I\+R\+Q\+Handler (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{main_8c_a4f2a6af09f383df578e27ae706535323}
+\hypertarget{main_8c_ae82b9775ac87a11280cec163f50bcec7}{}\index{main.\+c@{main.\+c}!E\+X\+T\+I15\+\_\+10\+\_\+\+I\+R\+Q\+Handler@{E\+X\+T\+I15\+\_\+10\+\_\+\+I\+R\+Q\+Handler}}
+\index{E\+X\+T\+I15\+\_\+10\+\_\+\+I\+R\+Q\+Handler@{E\+X\+T\+I15\+\_\+10\+\_\+\+I\+R\+Q\+Handler}!main.\+c@{main.\+c}}
+\subsubsection[{E\+X\+T\+I15\+\_\+10\+\_\+\+I\+R\+Q\+Handler}]{\setlength{\rightskip}{0pt plus 5cm}E\+X\+T\+I15\+\_\+10\+\_\+\+I\+R\+Q\+Handler (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{main_8c_ae82b9775ac87a11280cec163f50bcec7}
+\hypertarget{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{}\index{main.\+c@{main.\+c}!main@{main}}
+\index{main@{main}!main.\+c@{main.\+c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{main_8c_a840291bc02cba5474a4cb46a9b9566fe}
+
+
+funkcja główna 
+
+\hypertarget{main_8c_a0ae53972a4e789e16447cc4c5f40f5e3}{}\index{main.\+c@{main.\+c}!T\+I\+M3\+\_\+\+I\+R\+Q\+Handler@{T\+I\+M3\+\_\+\+I\+R\+Q\+Handler}}
+\index{T\+I\+M3\+\_\+\+I\+R\+Q\+Handler@{T\+I\+M3\+\_\+\+I\+R\+Q\+Handler}!main.\+c@{main.\+c}}
+\subsubsection[{T\+I\+M3\+\_\+\+I\+R\+Q\+Handler}]{\setlength{\rightskip}{0pt plus 5cm}T\+I\+M3\+\_\+\+I\+R\+Q\+Handler (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{main_8c_a0ae53972a4e789e16447cc4c5f40f5e3}
+
+
+\subsection{Variable Documentation}
+\hypertarget{main_8c_a3ee5cf9b882c0e18fa092f8ff663c404}{}\index{main.\+c@{main.\+c}!degrees\+\_\+data\+\_\+to\+\_\+read@{degrees\+\_\+data\+\_\+to\+\_\+read}}
+\index{degrees\+\_\+data\+\_\+to\+\_\+read@{degrees\+\_\+data\+\_\+to\+\_\+read}!main.\+c@{main.\+c}}
+\subsubsection[{degrees\+\_\+data\+\_\+to\+\_\+read}]{\setlength{\rightskip}{0pt plus 5cm}bool degrees\+\_\+data\+\_\+to\+\_\+read =false}\label{main_8c_a3ee5cf9b882c0e18fa092f8ff663c404}
+\hypertarget{main_8c_a7f5d5739f7e2f43debba7b3877d1273a}{}\index{main.\+c@{main.\+c}!radian\+\_\+data\+\_\+to\+\_\+read@{radian\+\_\+data\+\_\+to\+\_\+read}}
+\index{radian\+\_\+data\+\_\+to\+\_\+read@{radian\+\_\+data\+\_\+to\+\_\+read}!main.\+c@{main.\+c}}
+\subsubsection[{radian\+\_\+data\+\_\+to\+\_\+read}]{\setlength{\rightskip}{0pt plus 5cm}bool radian\+\_\+data\+\_\+to\+\_\+read =false}\label{main_8c_a7f5d5739f7e2f43debba7b3877d1273a}
+\hypertarget{main_8c_ad3de2f8536dd081cded475d0cc54be31}{}\index{main.\+c@{main.\+c}!recieved\+\_\+data@{recieved\+\_\+data}}
+\index{recieved\+\_\+data@{recieved\+\_\+data}!main.\+c@{main.\+c}}
+\subsubsection[{recieved\+\_\+data}]{\setlength{\rightskip}{0pt plus 5cm}uint8\+\_\+t recieved\+\_\+data\mbox{[}{\bf R\+E\+C\+I\+E\+V\+E\+D\+\_\+\+D\+A\+T\+A\+\_\+\+L\+E\+N\+G\+H\+T}\mbox{]}}\label{main_8c_ad3de2f8536dd081cded475d0cc54be31}
+\hypertarget{main_8c_ad65bad7b170b0c84a1c801fa7f5d0ed5}{}\index{main.\+c@{main.\+c}!single\+\_\+measure\+\_\+no\+\_\+send@{single\+\_\+measure\+\_\+no\+\_\+send}}
+\index{single\+\_\+measure\+\_\+no\+\_\+send@{single\+\_\+measure\+\_\+no\+\_\+send}!main.\+c@{main.\+c}}
+\subsubsection[{single\+\_\+measure\+\_\+no\+\_\+send}]{\setlength{\rightskip}{0pt plus 5cm}bool single\+\_\+measure\+\_\+no\+\_\+send =false}\label{main_8c_ad65bad7b170b0c84a1c801fa7f5d0ed5}
+\hypertarget{main_8c_a24b47a699b31b841fb5c77760c7d2931}{}\index{main.\+c@{main.\+c}!single\+\_\+measure\+\_\+with\+\_\+send@{single\+\_\+measure\+\_\+with\+\_\+send}}
+\index{single\+\_\+measure\+\_\+with\+\_\+send@{single\+\_\+measure\+\_\+with\+\_\+send}!main.\+c@{main.\+c}}
+\subsubsection[{single\+\_\+measure\+\_\+with\+\_\+send}]{\setlength{\rightskip}{0pt plus 5cm}bool single\+\_\+measure\+\_\+with\+\_\+send =false}\label{main_8c_a24b47a699b31b841fb5c77760c7d2931}

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 5.3.0 mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103CB -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\projekt_pmik\stm_lib\inc -I..\..\..\workspace\projekt_pmik\stm_lib -I..\..\..\workspace -I..\..\..\workspace\projekt_pmik -I..\..\..\workspace\projekt_pmik\cmsis -I..\..\.. -I..\..\..\workspace\projekt_pmik\cmsis_boot -I..\..\..\workspace\projekt_pmik\MPU">
+      <target file="MPU6050.o" lastModified="15a704a8718">
+         <source file="..\..\..\MPU\MPU6050.c" lastModified="15a685dfe51"/>
+      </target>
+      <target file="display.o" lastModified="15a6d4f2643">
+         <source file="..\..\..\display.c" lastModified="15a6c6a9c83"/>
+      </target>
+      <target file="MPU6050_HW.o" lastModified="15a6d4f27f1">
+         <source file="..\..\..\MPU\MPU6050_HW.c" lastModified="15a6bc49b5f"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc 5.3.0 mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103CB -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\projekt_pmik\stm_lib\inc -I..\..\..\workspace\projekt_pmik\stm_lib -I..\..\..\workspace -I..\..\..\workspace\projekt_pmik -I..\..\..\workspace\projekt_pmik\cmsis -I..\..\.. -I..\..\..\workspace\projekt_pmik\cmsis_boot">
+      <target file="stm32f10x_adc.o" lastModified="15a704b4235">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="15726049fdf"/>
+      </target>
+      <target file="syscalls.o" lastModified="15a704b4333">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1569dab12f4"/>
+      </target>
+      <target file="comm.o" lastModified="15a709f914b">
+         <source file="..\..\..\comm.c" lastModified="15a709d33e7"/>
+      </target>
+      <target file="HD44780.o" lastModified="15a704b3705">
+         <source file="..\..\..\HD44780.c" lastModified="1571b55a1cc"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="15a704b3865">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="156a9ce55d7"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="15a704b4430">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="15a67f36fa2"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="15a704b393e">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1566c01ad61"/>
+      </target>
+      <target file="main.o" lastModified="15a709f9022">
+         <source file="..\..\..\main.c" lastModified="15a704a7829"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="15a704b3af9">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1566c172574"/>
+      </target>
+      <target file="utils.o" lastModified="15a709f9334">
+         <source file="..\..\..\utils.c" lastModified="15a706ec531"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="15a704b4125">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1566c17257a"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="15a704b3a01">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="1566c01ad2c"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,100 @@
+\hypertarget{_h_d44780_8c}{}\section{H\+D44780.\+c File Reference}
+\label{_h_d44780_8c}\index{H\+D44780.\+c@{H\+D44780.\+c}}
+{\ttfamily \#include \char`\"{}H\+D44780.\+h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_h_d44780_8c_a48fb2a3535c1170f3bfd6af84e9e0927}{\+\_\+delay\+\_\+ms} (unsigned int in)
+\item 
+void \hyperlink{_h_d44780_8c_a673b79b4f82b5021a15e8e3821b01581}{\+\_\+\+L\+C\+D\+\_\+\+Out\+Nibble} (unsigned char nibble\+To\+Write)
+\item 
+void \hyperlink{_h_d44780_8c_a0a846557b31804c8abf03f84e9e11c5b}{\+\_\+\+L\+C\+D\+\_\+\+Write} (unsigned char data\+To\+Write)
+\item 
+void \hyperlink{_h_d44780_8c_adcccc7cd4b257cb70337233d53d6d088}{L\+C\+D\+\_\+\+Write\+Command} (unsigned char command\+To\+Write)
+\item 
+void \hyperlink{_h_d44780_8c_a10d18c948406ad43e83329ca2ed71dea}{L\+C\+D\+\_\+\+Write\+Data} (unsigned char data\+To\+Write)
+\item 
+void \hyperlink{_h_d44780_8c_ab41338684cb13c169dab9a3120198e6c}{L\+C\+D\+\_\+\+Write\+Text} (char $\ast$text)
+\item 
+void \hyperlink{_h_d44780_8c_a04c2062f080148e56a97fefdaffda10d}{L\+C\+D\+\_\+\+Go\+To} (unsigned char x, unsigned char y)
+\item 
+void \hyperlink{_h_d44780_8c_ae60d0b62d7eb3fa31266c095d7b3c245}{L\+C\+D\+\_\+\+Clear} (void)
+\item 
+void \hyperlink{_h_d44780_8c_aff81ad208241ea7c4cbf62d6f681dc82}{L\+C\+D\+\_\+\+Home} (void)
+\item 
+void \hyperlink{_h_d44780_8c_ab7e3299bd450b9739dcac9c643da9e27}{L\+C\+D\+\_\+\+Initalize} (void)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{_h_d44780_8c_a48fb2a3535c1170f3bfd6af84e9e0927}{}\index{H\+D44780.\+c@{H\+D44780.\+c}!\+\_\+delay\+\_\+ms@{\+\_\+delay\+\_\+ms}}
+\index{\+\_\+delay\+\_\+ms@{\+\_\+delay\+\_\+ms}!H\+D44780.\+c@{H\+D44780.\+c}}
+\subsubsection[{\+\_\+delay\+\_\+ms}]{\setlength{\rightskip}{0pt plus 5cm}void \+\_\+delay\+\_\+ms (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{in}
+\end{DoxyParamCaption}
+)}\label{_h_d44780_8c_a48fb2a3535c1170f3bfd6af84e9e0927}
+\hypertarget{_h_d44780_8c_a673b79b4f82b5021a15e8e3821b01581}{}\index{H\+D44780.\+c@{H\+D44780.\+c}!\+\_\+\+L\+C\+D\+\_\+\+Out\+Nibble@{\+\_\+\+L\+C\+D\+\_\+\+Out\+Nibble}}
+\index{\+\_\+\+L\+C\+D\+\_\+\+Out\+Nibble@{\+\_\+\+L\+C\+D\+\_\+\+Out\+Nibble}!H\+D44780.\+c@{H\+D44780.\+c}}
+\subsubsection[{\+\_\+\+L\+C\+D\+\_\+\+Out\+Nibble}]{\setlength{\rightskip}{0pt plus 5cm}void \+\_\+\+L\+C\+D\+\_\+\+Out\+Nibble (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{nibble\+To\+Write}
+\end{DoxyParamCaption}
+)}\label{_h_d44780_8c_a673b79b4f82b5021a15e8e3821b01581}
+\hypertarget{_h_d44780_8c_a0a846557b31804c8abf03f84e9e11c5b}{}\index{H\+D44780.\+c@{H\+D44780.\+c}!\+\_\+\+L\+C\+D\+\_\+\+Write@{\+\_\+\+L\+C\+D\+\_\+\+Write}}
+\index{\+\_\+\+L\+C\+D\+\_\+\+Write@{\+\_\+\+L\+C\+D\+\_\+\+Write}!H\+D44780.\+c@{H\+D44780.\+c}}
+\subsubsection[{\+\_\+\+L\+C\+D\+\_\+\+Write}]{\setlength{\rightskip}{0pt plus 5cm}void \+\_\+\+L\+C\+D\+\_\+\+Write (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{data\+To\+Write}
+\end{DoxyParamCaption}
+)}\label{_h_d44780_8c_a0a846557b31804c8abf03f84e9e11c5b}
+\hypertarget{_h_d44780_8c_ae60d0b62d7eb3fa31266c095d7b3c245}{}\index{H\+D44780.\+c@{H\+D44780.\+c}!L\+C\+D\+\_\+\+Clear@{L\+C\+D\+\_\+\+Clear}}
+\index{L\+C\+D\+\_\+\+Clear@{L\+C\+D\+\_\+\+Clear}!H\+D44780.\+c@{H\+D44780.\+c}}
+\subsubsection[{L\+C\+D\+\_\+\+Clear}]{\setlength{\rightskip}{0pt plus 5cm}void L\+C\+D\+\_\+\+Clear (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{_h_d44780_8c_ae60d0b62d7eb3fa31266c095d7b3c245}
+\hypertarget{_h_d44780_8c_a04c2062f080148e56a97fefdaffda10d}{}\index{H\+D44780.\+c@{H\+D44780.\+c}!L\+C\+D\+\_\+\+Go\+To@{L\+C\+D\+\_\+\+Go\+To}}
+\index{L\+C\+D\+\_\+\+Go\+To@{L\+C\+D\+\_\+\+Go\+To}!H\+D44780.\+c@{H\+D44780.\+c}}
+\subsubsection[{L\+C\+D\+\_\+\+Go\+To}]{\setlength{\rightskip}{0pt plus 5cm}void L\+C\+D\+\_\+\+Go\+To (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{x, }
+\item[{unsigned char}]{y}
+\end{DoxyParamCaption}
+)}\label{_h_d44780_8c_a04c2062f080148e56a97fefdaffda10d}
+\hypertarget{_h_d44780_8c_aff81ad208241ea7c4cbf62d6f681dc82}{}\index{H\+D44780.\+c@{H\+D44780.\+c}!L\+C\+D\+\_\+\+Home@{L\+C\+D\+\_\+\+Home}}
+\index{L\+C\+D\+\_\+\+Home@{L\+C\+D\+\_\+\+Home}!H\+D44780.\+c@{H\+D44780.\+c}}
+\subsubsection[{L\+C\+D\+\_\+\+Home}]{\setlength{\rightskip}{0pt plus 5cm}void L\+C\+D\+\_\+\+Home (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{_h_d44780_8c_aff81ad208241ea7c4cbf62d6f681dc82}
+\hypertarget{_h_d44780_8c_ab7e3299bd450b9739dcac9c643da9e27}{}\index{H\+D44780.\+c@{H\+D44780.\+c}!L\+C\+D\+\_\+\+Initalize@{L\+C\+D\+\_\+\+Initalize}}
+\index{L\+C\+D\+\_\+\+Initalize@{L\+C\+D\+\_\+\+Initalize}!H\+D44780.\+c@{H\+D44780.\+c}}
+\subsubsection[{L\+C\+D\+\_\+\+Initalize}]{\setlength{\rightskip}{0pt plus 5cm}void L\+C\+D\+\_\+\+Initalize (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{_h_d44780_8c_ab7e3299bd450b9739dcac9c643da9e27}
+\hypertarget{_h_d44780_8c_adcccc7cd4b257cb70337233d53d6d088}{}\index{H\+D44780.\+c@{H\+D44780.\+c}!L\+C\+D\+\_\+\+Write\+Command@{L\+C\+D\+\_\+\+Write\+Command}}
+\index{L\+C\+D\+\_\+\+Write\+Command@{L\+C\+D\+\_\+\+Write\+Command}!H\+D44780.\+c@{H\+D44780.\+c}}
+\subsubsection[{L\+C\+D\+\_\+\+Write\+Command}]{\setlength{\rightskip}{0pt plus 5cm}void L\+C\+D\+\_\+\+Write\+Command (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{command\+To\+Write}
+\end{DoxyParamCaption}
+)}\label{_h_d44780_8c_adcccc7cd4b257cb70337233d53d6d088}
+\hypertarget{_h_d44780_8c_a10d18c948406ad43e83329ca2ed71dea}{}\index{H\+D44780.\+c@{H\+D44780.\+c}!L\+C\+D\+\_\+\+Write\+Data@{L\+C\+D\+\_\+\+Write\+Data}}
+\index{L\+C\+D\+\_\+\+Write\+Data@{L\+C\+D\+\_\+\+Write\+Data}!H\+D44780.\+c@{H\+D44780.\+c}}
+\subsubsection[{L\+C\+D\+\_\+\+Write\+Data}]{\setlength{\rightskip}{0pt plus 5cm}void L\+C\+D\+\_\+\+Write\+Data (
+\begin{DoxyParamCaption}
+\item[{unsigned char}]{data\+To\+Write}
+\end{DoxyParamCaption}
+)}\label{_h_d44780_8c_a10d18c948406ad43e83329ca2ed71dea}
+\hypertarget{_h_d44780_8c_ab41338684cb13c169dab9a3120198e6c}{}\index{H\+D44780.\+c@{H\+D44780.\+c}!L\+C\+D\+\_\+\+Write\+Text@{L\+C\+D\+\_\+\+Write\+Text}}
+\index{L\+C\+D\+\_\+\+Write\+Text@{L\+C\+D\+\_\+\+Write\+Text}!H\+D44780.\+c@{H\+D44780.\+c}}
+\subsubsection[{L\+C\+D\+\_\+\+Write\+Text}]{\setlength{\rightskip}{0pt plus 5cm}void L\+C\+D\+\_\+\+Write\+Text (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{text}
+\end{DoxyParamCaption}
+)}\label{_h_d44780_8c_ab41338684cb13c169dab9a3120198e6c}
